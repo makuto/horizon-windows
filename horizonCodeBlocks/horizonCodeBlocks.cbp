@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="horizonCodeBlocks" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/horizonCodeBlocks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../base2.0/animation/animation.cpp" />
+		<Unit filename="../../base2.0/animation/animation.hpp" />
+		<Unit filename="../../base2.0/collision/collision.cpp" />
+		<Unit filename="../../base2.0/collision/collision.hpp" />
+		<Unit filename="../../base2.0/ept/eptParser.cpp" />
+		<Unit filename="../../base2.0/ept/eptParser.hpp" />
+		<Unit filename="../../base2.0/graphics/graphics.cpp" />
+		<Unit filename="../../base2.0/graphics/graphics.hpp" />
+		<Unit filename="../../base2.0/input/input.cpp" />
+		<Unit filename="../../base2.0/input/input.hpp" />
+		<Unit filename="../../base2.0/math/math.cpp" />
+		<Unit filename="../../base2.0/math/math.hpp" />
+		<Unit filename="../../base2.0/network/network.cpp" />
+		<Unit filename="../../base2.0/network/network.hpp" />
+		<Unit filename="../../base2.0/profiler/profiler.cpp" />
+		<Unit filename="../../base2.0/profiler/profiler.hpp" />
+		<Unit filename="../../base2.0/sound/sound.cpp" />
+		<Unit filename="../../base2.0/sound/sound.hpp" />
+		<Unit filename="../../base2.0/tileMap/multilayerMap.cpp" />
+		<Unit filename="../../base2.0/tileMap/multilayerMap.hpp" />
+		<Unit filename="../../base2.0/tileMap/tileCamera.cpp" />
+		<Unit filename="../../base2.0/tileMap/tileCamera.hpp" />
+		<Unit filename="../../base2.0/tileMap/tileMap.cpp" />
+		<Unit filename="../../base2.0/tileMap/tileMap.hpp" />
+		<Unit filename="../../base2.0/tiledImporter/pugixml/pugiconfig.hpp" />
+		<Unit filename="../../base2.0/tiledImporter/pugixml/pugixml.cpp" />
+		<Unit filename="../../base2.0/tiledImporter/pugixml/pugixml.hpp" />
+		<Unit filename="../../base2.0/timer/timer.cpp" />
+		<Unit filename="../../base2.0/timer/timer.hpp" />
+		<Unit filename="../../horizon/src/agent/agent.cpp" />
+		<Unit filename="../../horizon/src/agent/agent.hpp" />
+		<Unit filename="../../horizon/src/agent/need.cpp" />
+		<Unit filename="../../horizon/src/agent/need.hpp" />
+		<Unit filename="../../horizon/src/agent/needMath.cpp" />
+		<Unit filename="../../horizon/src/agent/needMath.hpp" />
+		<Unit filename="../../horizon/src/agent/needProcessor.cpp" />
+		<Unit filename="../../horizon/src/agent/needProcessor.hpp" />
+		<Unit filename="../../horizon/src/agent/process.cpp" />
+		<Unit filename="../../horizon/src/agent/process.hpp" />
+		<Unit filename="../../horizon/src/agent/processDirectory.cpp" />
+		<Unit filename="../../horizon/src/agent/processDirectory.hpp" />
+		<Unit filename="../../horizon/src/agent/processMap.cpp" />
+		<Unit filename="../../horizon/src/agent/processMap.hpp" />
+		<Unit filename="../../horizon/src/agent/species.cpp" />
+		<Unit filename="../../horizon/src/agent/species.hpp" />
+		<Unit filename="../../horizon/src/main.cpp" />
+		<Unit filename="../../horizon/src/object/object.cpp" />
+		<Unit filename="../../horizon/src/object/object.hpp" />
+		<Unit filename="../../horizon/src/object/objectManager.cpp" />
+		<Unit filename="../../horizon/src/object/objectManager.hpp" />
+		<Unit filename="../../horizon/src/object/objectProcessor.cpp" />
+		<Unit filename="../../horizon/src/object/objectProcessor.hpp" />
+		<Unit filename="../../horizon/src/object/objectProcessorDir.cpp" />
+		<Unit filename="../../horizon/src/object/objectProcessorDir.hpp" />
+		<Unit filename="../../horizon/src/object/processors/agentProcessor.cpp" />
+		<Unit filename="../../horizon/src/object/processors/agentProcessor.hpp" />
+		<Unit filename="../../horizon/src/utilities/debugText.cpp" />
+		<Unit filename="../../horizon/src/utilities/debugText.hpp" />
+		<Unit filename="../../horizon/src/utilities/micropather.cpp" />
+		<Unit filename="../../horizon/src/utilities/micropather.h" />
+		<Unit filename="../../horizon/src/utilities/pool.cpp" />
+		<Unit filename="../../horizon/src/utilities/pool.hpp" />
+		<Unit filename="../../horizon/src/utilities/quadTree.cpp" />
+		<Unit filename="../../horizon/src/utilities/quadTree.hpp" />
+		<Unit filename="../../horizon/src/utilities/simplexnoise.cpp" />
+		<Unit filename="../../horizon/src/utilities/simplexnoise.h" />
+		<Unit filename="../../horizon/src/world/cell.cpp" />
+		<Unit filename="../../horizon/src/world/cell.hpp" />
+		<Unit filename="../../horizon/src/world/cellGrabber.cpp" />
+		<Unit filename="../../horizon/src/world/cellGrabber.hpp" />
+		<Unit filename="../../horizon/src/world/coord.cpp" />
+		<Unit filename="../../horizon/src/world/coord.hpp" />
+		<Unit filename="../../horizon/src/world/path.cpp" />
+		<Unit filename="../../horizon/src/world/path.hpp" />
+		<Unit filename="../../horizon/src/world/time.cpp" />
+		<Unit filename="../../horizon/src/world/time.hpp" />
+		<Unit filename="../../horizon/src/world/world.cpp" />
+		<Unit filename="../../horizon/src/world/world.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
