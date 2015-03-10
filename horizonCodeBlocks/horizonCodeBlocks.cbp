@@ -8,6 +8,7 @@
 		<Build>
 			<Target title="Release">
 				<Option output="bin/Release/horizonCodeBlocks" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../../horizon" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -35,6 +36,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<ExtraCommands>
+			<Add after="cmd.exe /C xcopy ..\DLLS ..\..\horizon" />
+		</ExtraCommands>
 		<Unit filename="../../base2.0/animation/animation.cpp" />
 		<Unit filename="../../base2.0/animation/animation.hpp" />
 		<Unit filename="../../base2.0/collision/collision.cpp" />
